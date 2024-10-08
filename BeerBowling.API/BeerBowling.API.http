@@ -1,0 +1,6 @@
+@BeerBowling.API_HostAddress = http://localhost:5270
+
+GET {{BeerBowling.API_HostAddress}}/players/
+Accept: application/json
+
+###

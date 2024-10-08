@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerBowling.API", "BeerBowling.API\BeerBowling.API.csproj", "{3FD9766F-971B-4129-A244-96ED8AC0ED03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerBowling.Domain", "BeerBowling.Domain\BeerBowling.Domain.csproj", "{2B77CF2C-DA73-4687-AE4D-BA9DD0F3293C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerBowling.Application", "BeerBowling.Application\BeerBowling.Application.csproj", "{D9D26FBF-C6F6-49C3-91BE-D6773F10E959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerBowling.Infrastructure", "BeerBowling.Infrastructure\BeerBowling.Infrastructure.csproj", "{77EA30B8-DA49-49C5-B191-D2B18345BEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FD9766F-971B-4129-A244-96ED8AC0ED03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD9766F-971B-4129-A244-96ED8AC0ED03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD9766F-971B-4129-A244-96ED8AC0ED03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD9766F-971B-4129-A244-96ED8AC0ED03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B77CF2C-DA73-4687-AE4D-BA9DD0F3293C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B77CF2C-DA73-4687-AE4D-BA9DD0F3293C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B77CF2C-DA73-4687-AE4D-BA9DD0F3293C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B77CF2C-DA73-4687-AE4D-BA9DD0F3293C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D26FBF-C6F6-49C3-91BE-D6773F10E959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D26FBF-C6F6-49C3-91BE-D6773F10E959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D26FBF-C6F6-49C3-91BE-D6773F10E959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D26FBF-C6F6-49C3-91BE-D6773F10E959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EA30B8-DA49-49C5-B191-D2B18345BEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EA30B8-DA49-49C5-B191-D2B18345BEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EA30B8-DA49-49C5-B191-D2B18345BEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EA30B8-DA49-49C5-B191-D2B18345BEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
