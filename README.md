@@ -13,17 +13,27 @@ This project follows Clean Architecture principles, promoting separation of conc
 |   |-- Application
 |   |   |-- Commands
 |   |   |-- Queries
+|   |   |-- Validation
 |   |-- Domain
 |   |-- Infrastructure
 |   |-- API
+|   |   |-- Controllers
 
-Application: Contains the business logic of the application. Commands for write operations and Queries for read operations.
+#### Application:
+Contains the business logic of the application. Commands for write operations and Queries for read operations.
+Has a dependency to the `Domain` project.
 
-Domain: Represents the core business logic, including entities, value objects, and domain services.
+#### Domain: 
+Represents the core business logic, including entities, value objects, and domain services. 
+Has no dependencies to other projects in the slution.
 
-Infrastructure: Includes implementations for data access, external services, and any other infrastructure concerns.
+#### Infrastructure:
+Includes implementations for data access, external services, and any other infrastructure concerns.
+Has a dependency to the `Application` project.
 
-API: The entry point for the application, typically a Web API.
+#### API:
+The entry point for the application, typically a Web API.
+Has a dependency to the `Application` and `Infrastructure` project.
 
 ### Patterns
 The CQRS (Command Query Responsibility Segregation) pattern combined with the Mediator pattern is a powerful architectural approach in C#. Here’s a brief overview:
@@ -40,10 +50,5 @@ The Mediator pattern helps reduce the complexity of communication between object
 
 ## Test
 
-## Dependencies
-A list of primary dependencies and their roles in the project.
-
-* MediatR: A library used for implementing the Mediator pattern.
-* Entity Framework Core: An ORM for database access.
-* FluentValidation: For validating application commands and queries.
-* NSubstitute as mocking framework
+Test project utilizes `NSubstitute` as a mocking framework.
+Furthermore in cases where a end-2-end test is needed the `Testcontainers` nuget package is utilized.
